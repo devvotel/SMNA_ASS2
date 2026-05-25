@@ -1,4 +1,12 @@
-## GUIDE
+# Bluesky's X discourse analysis - do Bluesky users hate Twitter?
+
+**Course**: COSC2671, Social Media and Network Analytics (Undergraduate), Assignment 2, Semester 1 2026, RMIT University
+**Authors**: Daniil Pkhakadze (s4101606), Benjamin Norrie (s4076520)
+
+This project investigates how Bluesky users perceive Twitter/X. We collected ~14,000 posts using seven keywords related to Twitter/X discourse and applied network analysis, sentiment analysis, and topic modelling to answer: do Bluesky users hate Twitter?
+
+
+## GUIDE for running the project
 1) Make sure there is a folder named "data" in the same folder than `fetch_posts.py` and `fetch_threads.py` are in.
 2) - IF you have the **uv package manager** installed:
     simply run `uv synv` in the terminal in the project folder - it will automatically create a virtual environment (.venv)
