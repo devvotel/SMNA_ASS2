@@ -1,6 +1,14 @@
 ## GUIDE
 1) Make sure there is a folder named "data" in the same folder than `fetch_posts.py` and `fetch_threads.py` are in.
-2) 
+2) - IF you have the **uv package manager** installed:
+    simply run `uv synv` in the terminal in the project folder - it will automatically create a virtual environment (.venv)
+    and install all packages needed to run all files in the project into it.
+   - IF you do NOT have uv: create a virtual environment manually (.venv), run `.venv/Scripts/activate` in the terminal, then install
+   all packages that are listed in the `pyproject.toml` file.
+3) Run `fetch_posts.py` - it will gather ~14000 Bluesky posts using the API and save them into the **data** folder: `data/posts.csv`.
+4) Run `fetch_threads.py` - it will gather reply threads from the 20 most replied-to posts and save them in the **data** folder too: `data/edges.csv`.
+5) Now you can open `bluesky_analysis.ipynb` and run all the cells in the notebook.
+6) Open `network_analysis.ipynb` and do the same.
 
 
 
